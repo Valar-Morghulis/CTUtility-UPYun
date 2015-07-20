@@ -8,10 +8,9 @@
 
 #import "CTUtility+UPYun.h"
 
-NSString * UPYUN_USERNAME = "qymhpic";
-NSString * UPYUN_PASWWORD = "qymhpic1";
-NSString * UPYUN_BUCKET = "qymhpic";
-NSString * UPYUN_BASE_URL = @"http://qymhpic.b0.upaiyun.com/";
+char * UPYUN_USERNAME = "qymhpic";
+char * UPYUN_PASWWORD = "qymhpic1";
+char * UPYUN_BUCKET = "qymhpic";
 
 @implementation  CTUtility(UPYun)
 +(void)uploadFileToUP:(NSString *)filePath newFileName:(NSString *) newFileName successBlock:(void (^)(void))successBlock errorBlock:(void (^)(void))errorBlock

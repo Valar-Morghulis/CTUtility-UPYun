@@ -11,10 +11,10 @@
 #include <sys/stat.h>
 #include "upyun.h"
 
-extern NSString * UPYUN_USERNAME;
-extern NSString * UPYUN_PASWWORD;
-extern NSString * UPYUN_BUCKET;
-extern NSString * UPYUN_BASE_URL;
+extern char * UPYUN_USERNAME;
+extern char * UPYUN_PASWWORD;
+extern char * UPYUN_BUCKET;
+extern char * UPYUN_BASE_URL;
 
 
 @interface CTUtility(UPYun)
